@@ -95,5 +95,179 @@ if lang == ["a", "e", "i", "o", "u"]:
 else:
     print("La letra ingresada es una consonante")
  ````
-  
+En este ejercicio, simplemete se busca una comparacion, donde se deja las vocales en un primer caso donde si se cumple, será una vocal y si no, entonces seria una consonante.
+
+7)Escriba un programa que pida 5 números reales y calcule las siguientes operaciones:
+
+El promedio
+```python
+#Pedir cinco numeros al usuario
+from statistics import median
+
+
+a : float
+a = float(input("Inserte un numero: "))
+b : float
+b = float(input("Inserte un numero: "))
+c : float
+c = float(input("Inserte un numero: "))
+d : float
+d = float(input("Inserte un numero: "))
+e : float
+e = float(input("inserte un numero: "))
+
+
+#Promedio
+promedio : float = ((a)+(b)+(c)+(d)+(e))/5
+print("El promedio de los numeros es " + str(promedio))
+```
+En este punto, se le pide inicialmente cinco numeros al usuario, los cuales se trabajaran con todos los codigos en este punto, lo siguiente es calcular el promedio, donde se ponen a las cinco variables y se suman, por ultimo se duviden en el numero de datos y se muestra el mensaje del promedio de esos cinco valores.
+
+La mediana
+```python
+#Mediana
+li = (a, b, c, d, e,)
+mediana = median(li)
+print("la mediana de los numeros ingresados son :", mediana)
+```
+En el siguiente punto, se toman los 5 valores como se dijo anteriormente y se pocede a sacar la mediana, la cual aqui se usa la palabra reservada "median" y la variable que contiene los cinco valores que van a tener 
+
+Promedio multiplicativo
+```python
+#Promedio multiplicativo
+producto = a*b*c*d*e
+promedio_multiplicativo = producto**(1/5)
+print("El promedio multiplicativo es: ",promedio_multiplicativo)
+```
+En este punto se realizó con dos variables las cuales la primera es donde se multiplican los cinco numeros ingresados por el usuario y seguido a ello esa variable es ingresada dentro de otra variable, donde se someterá a la raiz quinta ya que ese es el numero de datos y por ultimo se imprime el resultado de esa ultima variable.
+
+Orden ascendente
+```python
+#Ordenar los numeros ascendente
+if a > b:
+    a, b = b, a
+if b > c:
+    b, c = c, b
+if c > d:
+    c, d = d, c
+if d > e:
+    d, e = e, d
+if a > b:
+    a, b = b, a
+if b > c:
+    b, c = c, b
+if c > d:
+    c, d = d, c
+if a > b:
+    a, b = b, a
+if b > c:
+    b, c = c, b
+if a > b:
+    a, b = b, a
+print("Los números ordenados de forma ascendente son:")
+print(a, b, c, d, e)
+```
+En el siguiente punto se comparan todos los valores donde en un primer listado se comparan cada uno y se repite la secuencia pero eliminando el ultimo valor, y asi sucesivamente hasta comparar el primer valor con el segundo para determinar quien es mayor.
+
+Orden descendente
+```python
+#Ordenar los numero de forma descendente
+if a < b:
+    a, b = b, a
+if b < c:
+    b, c = c, b
+if c < d:
+    c, d = d, c
+if d < e:
+    d, e = e, d
+if a < b:
+    a, b = b, a
+if b < c:
+    b, c = c, b
+if c < d:
+    c, d = d, c
+if a < b:
+    a, b = b, a
+if b < c:
+    b, c = c, b
+if a < b:
+    a, b = b, a
+print("Los numeros ordenados de forma descendente son: ")
+print(a, b, c, d ,e)
+```
+En este punso simplemente es el mismo proceso del anterior, solo que en vez de comparar si quien de los dos valores el es mayor, acá es comparando quien es el menor.
+
+Potencia del mayor número elevado al menor número
+```python
+#La potencia del mayor número elevado al menor número
+max_num = a
+min_num = a
+if b > max_num:
+    max_num = b
+if c > max_num:
+    max_num = c
+if d > max_num:
+    max_num = d
+if e > max_num:
+    max_num = e
+
+if b < min_num:
+    min_num = b
+if c < min_num:
+    min_num = c
+if d < min_num:
+    min_num = d
+if e < min_num:
+    min_num = e
+resultado = max_num**min_num
+print("El resultado de elevar el " + str(max_num) + " que es el mayor numero con " + str(min_num) + "que es el menor numero es: " + str(resultado))
+```
+
+En el siguiente codigo se proponer que el primer numero que se le pide al usuario sera inmediatamente el maximo y el minimo, seguido a ello se comprar los otros 4 valores para determinar quien es el mayor y se repite este proceso para determinar quien es el meno teniendo en cuenta que si se cumple algun caso, se determina que uno de los valores es el reemplazo del primer valor si es el maximo o es el minimo y por ultimo se realiza la operacion deseada teniendo en cuenta que ya estan definidos los valores maximos y minimos.
+
+Calcular la raiz cubica del menor numero
+```python
+#Calcular la raiz cubica del menor numero
+max_num = a
+min_num = a
+if b > max_num:
+    max_num = b
+if c > max_num:
+    max_num = c
+if d > max_num:
+    max_num = d
+if e > max_num:
+    max_num = e
+
+if b < min_num:
+    min_num = b
+if c < min_num:
+    min_num = c
+if d < min_num:
+    min_num = d
+if e < min_num:
+    min_num = e
+raiz = min_num**(1/3)
+print("La raiz cubica del menor numero ingresado es: " + str(raiz))
+```
+En este caso, simplemente se repite el proseso pero solo se toma el valor mas pequeño entre todos y se realiza la raiz cubica.
+
+8)Escriba un programa al que se le ingrese la frecuencia de una onda en hz y como salida arroje en que parte del espectro electromagnético se encuentra.
+
+```python 
+#Pedir un valor en Hz al usuario
+frecuencia = float(input("Inserte un valor en Hz: "))
+
+#Comparar si el valor esta en ciertos intervalo
+if frecuencia >= 4e14 and frecuencia <= 8e14:
+  print("El valor de la frecuencia esta en el rango visible")
+elif frecuencia < 4e14:
+  print("El valor de la frecuencia esta en el rango de infrarojos ")
+else:
+  print("El valor de la frecuencia esta en el rango de ultravioleta ")
+```
+En este punto se le pide al usuario una frecuencia en hertz (Hz) la cual esta alojada en una variable llamada "frecuencia" y esta será comparada con los valores de frecuencia que son visibles al ojo humano, donde si la frecuencia ingresada esta dentro del intervalo de frecuencias del espectro visible, se delara que el valor esta en el rango visible, si esta es menor al intervalo se declara que esta en un rango de infrarojos y si esta es muy alta (superando el intervalo) entonces esta esta en el rango de los ultravioleta.
+
+9)Escriba un programa que reciba el nombre en minúsculas de un país de America y retorne la ciudad capital, si el país no pertenece al continente debe arrojar país no identificado.
+
 
