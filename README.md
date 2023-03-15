@@ -21,6 +21,7 @@ print
 ```
 En este ejercicio lo que se busca es que el usuario pueda introducir los numero que el quiera y mediante este codigo determine cual es el mayor,
 para ello, se insertan tres variales en las cuales el usuario pueda introducir esos tres numeros, seguido a ello entra a comparar los numeros mediante la palabra reservada "if" si se cumple en un primer caso, si no se recurre a la palabra "elif", la cual se puede repetir las veces necesarias, pero si no se cumple en esas veces necesarias el programa se vera forzadoa utilizar el ultimo que "else", el cual se le asigna un mensaje en el caso en el que no se cumpla ningun caso.
+
 ![Diagrama punto 2](https://user-images.githubusercontent.com/124608110/225366079-57c1dee4-f322-4899-82ca-a83e03c6ecc4.jpg)
 Teniendo en cuenta el taller y el numero final de la cedula, este es el diagrama correspondiente al punto 2.
 
