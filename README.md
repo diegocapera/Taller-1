@@ -270,4 +270,116 @@ En este punto se le pide al usuario una frecuencia en hertz (Hz) la cual esta al
 
 9)Escriba un programa que reciba el nombre en minúsculas de un país de America y retorne la ciudad capital, si el país no pertenece al continente debe arrojar país no identificado.
 
+```python
+#Punto 9
+#Pedir al usuario un pais americano
+pais = input("escriba el nombre de un pais en minusculas: ")
+if pais == "canada":
+    print("La capital es toronto")
+elif pais == "estados unidos":
+    print("la capital es washington")
+elif pais == "mexico":
+    print("la capital es mexico d.f.")
+elif pais == "belice":
+    print("La capital es belmopan")
+elif pais == "costa rica":
+    print("La capital es san jose")
+elif pais == "el salvador":
+    print("La capital es san salvador")
+elif pais == "guatemala":
+    print("La capital es ciudad de guatemala")
+elif pais == "honduras":
+    print("Las capitales son tegucigalpa y comayagüela")
+elif pais == "nicaragua":
+    print("La capital es managua")
+elif pais == "panama":
+    print("La capital es ciudad de panama")
+elif pais == "colombia":
+    print("La capital es bogota")
+elif pais == "venezuela":
+    print("La capital es caracas")
+elif pais == "peru":
+    print("La capital es lima")
+elif pais == "bolivia":
+    print("La capital es la paz")
+elif pais == "argentina":
+    print("La capital es buenos aires")
+elif pais == "chile":
+    print("La capital es santiago de chile")
+elif pais == "ecuador":
+    print("La capital es quito")
+elif pais == "guyana":
+    print("La capital es georgetown")
+elif pais == "paraguay":
+    print("La capital es asuncion")
+elif pais == "surinam":
+    print("La capital es paramaribo")
+elif pais == "trinidad y tobago":
+    print("La capital es puerto españa")
+elif pais == "uruguay":
+    print("La capital es montevideo")
+elif pais == "brasil":
+    print("La capital es brasilia")
+elif pais == "guyana francesa":
+    print("La capital es cayena")
+elif pais == "antigua y barbuda":
+    print("La capital es saint john")
+elif pais == "bahamas":
+    print("La capital es nasau")
+elif pais == "barbados":
+    print("La capital es bridgetown")
+elif pais == "cuba":
+    print("La capital es la habana")
+elif pais == "dominica":
+    print("La capital es roseau")
+elif pais == "granada":
+    print("La capital es saint george")
+elif pais == "haiti":
+    print("La capital es puerto principe")
+elif pais == "jamaica":
+    print("La capital es kingston")
+elif pais == "republica dominicana":
+    print("La capital es santo domingo")
+elif pais == "san cristobal y nieves":
+    print("La capital es basseterre")
+elif pais == "san vicente y las granbadinas":
+    print("La capital es kingstown")
+elif pais == "santa lucia":
+    print("La capital es castries")
+elif pais == "puerto rico":
+    print("La capital es san juan")
+else:
+    print("pais no identificado")
+```
+
+En este punto se da con condicionales, en la cual se le pide al usuario el nombre de un pais de america en minusculas, ya que se tiene que tener en cuenta que si una letra es mayuscula, Python la interpreta como otro valor u otra variable, por ende, se le especifica al usuario escribirlo en minusculas, y si cumple con alguna condicional, se imprimira la capital o las capitales de ese pais, si no, simplemente mostrará el mensaje "pais no identificado"
+
+10)Escriba un programa que dada una distancia calcule:
+
+```python
+distancia : float
+distancia = float(input("Inserte una distancia en metros: "))
+
+#Calcular tiempo que tarda la luz en recorrer x distancia
+velocidad_luz = 2.998e8
+tiempo1 = distancia / velocidad_luz
+print("El tiempo que tarda la velocidad de la luz es " + str(tiempo1) + " segundos")
+
+#Calcular el tiempo que tarda el sonido (en el aire) en recorrer x distancia
+velocidad_sonido = 343
+tiempo2 = distancia / velocidad_sonido
+print ("El timepo que tarda el sonido en recorrer " + str(distancia) + " es " + str(tiempo2) + " segundos")
+
+#Calcular el tiempo que tarda un vehiculo comercial promedio en recorrer x distancia
+velocidad_vehiculo = 20.83
+tiempo3 = distancia / velocidad_vehiculo
+print("El tiempo en que tarda un vehiculo comercial promedio en recorrer " + str(distancia) + " es " + str(tiempo3) + " segundos")
+
+#Calcular el tiempo que tarda Usain Bolt en recorrer x distancia
+velocidad_bolt = 12.42
+tiempo4 = distancia / velocidad_bolt
+print("El tiempo que tarda Usain Bolt en recorrer " + str(distancia) + " es " + str(tiempo4) + " segundos")
+```
+En este ultimo programa se le pide una distancia en metros al usuario, ya que las velocidades que se trabajan son en metros/segundo, despues de eso, el valor que ingreso el usuario será sometido a las formulas de velocidad, distancia y tiempo, donde su resultado se da para el tiempo en segundos y por ultimo se imprime el mensaje despues de cada formula mostrando el resultado.
+
 
