@@ -3,7 +3,7 @@ Taller 1, hecho por Diego Alejandro Gutierrez Capera para la materia de programa
 1) Quiz con resultado de 95% de aciertos
 ![image](https://user-images.githubusercontent.com/124608110/224910882-14d1470d-c455-439f-bec8-cd23951681c4.png)
 
-2)Realice un programa que lea tres números reales y determine cuál es el mayor.
+2) Realice un programa que lea tres números reales y determine cuál es el mayor.
 ```python
 # Pedir tres numeros al usuario
 n1 = float(input("Introduce el primer numero: "))
@@ -26,7 +26,7 @@ para ello, se insertan tres variales en las cuales el usuario pueda introducir e
 
 Teniendo en cuenta el taller y el numero final de la cedula, este es el diagrama correspondiente al punto 2.
 
-3)Realice un programa que lea un número enteros y determine si es par o impar.
+3) Realice un programa que lea un número enteros y determine si es par o impar.
 ```python
 # Pedir tres numeros enteros al usuario
 alpha = int (input("Introduce un numero entero: "))
@@ -69,7 +69,7 @@ print
 ```
 En el siguiente punto se le pide al usuario dos numeros reales y para forzar esa condicion se impone la palabra "float" para declarar que esa variable será una variable con número real, despues se comprar si el número el cual se llama "alpha" es multiplo de "beta" y para ello se multiplica por 2 y seguido a ello se compara con "beta" para saber si el primer caso se cumple, en el caso de que si se deja un mensaje confirmando que es multiplo, en el caso contrario se deja otro mensaje declarando que no es multiplo 
 
-5)Realice un programa que lea tres números reales y determine si la suma de los dos primeros es mayor, menor o igual que el tercer número.
+5) Realice un programa que lea tres números reales y determine si la suma de los dos primeros es mayor, menor o igual que el tercer número.
 
 ```python
 #Pedir al usuario los numeros
@@ -88,7 +88,7 @@ else:
  ```
  En este punto se le pide al usuario tres numeros, los cuales seran sumados "alpha" y "beta", y dependiendo de su resultado cumpliran las condicionales dadas y dependiendo de cual cumpla o si no cumple ninguna, mostrará alguno de los tres mensajes confirmando si la suma de los numeros ingresados en las variables "alpha" y "beta" son mayor, menor o igual al numero ingresado en la variable "gamma"
  
- 6)Escriba un programa que solicite al usuario una letra y determine si es una vocal o una consonante.
+ 6) Escriba un programa que solicite al usuario una letra y determine si es una vocal o una consonante.
  ```python
  # Pedir al usuario una letra
 lang = input("Inserte una letra: ")
@@ -101,7 +101,7 @@ else:
  ````
 En este ejercicio, simplemete se busca una comparacion, donde se deja las vocales en un primer caso donde si se cumple, será una vocal y si no, entonces seria una consonante.
 
-7)Escriba un programa que pida 5 números reales y calcule las siguientes operaciones:
+7) Escriba un programa que pida 5 números reales y calcule las siguientes operaciones:
 
 El promedio
 ```python
@@ -256,7 +256,7 @@ print("La raiz cubica del menor numero ingresado es: " + str(raiz))
 ```
 En este caso, simplemente se repite el proseso pero solo se toma el valor mas pequeño entre todos y se realiza la raiz cubica.
 
-8)Escriba un programa al que se le ingrese la frecuencia de una onda en hz y como salida arroje en que parte del espectro electromagnético se encuentra.
+8) Escriba un programa al que se le ingrese la frecuencia de una onda en hz y como salida arroje en que parte del espectro electromagnético se encuentra.
 
 ```python 
 #Pedir un valor en Hz al usuario
@@ -358,7 +358,7 @@ else:
 
 En este punto se da con condicionales, en la cual se le pide al usuario el nombre de un pais de america en minusculas, ya que se tiene que tener en cuenta que si una letra es mayuscula, Python la interpreta como otro valor u otra variable, por ende, se le especifica al usuario escribirlo en minusculas, y si cumple con alguna condicional, se imprimira la capital o las capitales de ese pais, si no, simplemente mostrará el mensaje "pais no identificado"
 
-10)Escriba un programa que dada una distancia calcule:
+10) Escriba un programa que dada una distancia calcule:
 
 ```python
 distancia : float
